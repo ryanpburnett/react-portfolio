@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer(props) {
     return(
-        <p>footer</p>
+        <footer class="footer">Last updated: 3/4/2021</footer>
     )
 }
 
