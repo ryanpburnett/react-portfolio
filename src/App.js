@@ -13,14 +13,14 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/'>
-          <Home />
-        </Route>
-        <Route path='/portfolio'>
+        <Route path="/portfolio">
           <Portfolio />
         </Route>
-        <Route path='/contact'>
+        <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/">
+          <Home />
         </Route>
       </Switch>
     </Router>
